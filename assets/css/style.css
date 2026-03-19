@@ -48,17 +48,18 @@ main > button {
 }
 
 .casella {
-  width: 9%;
-  height: 100px;
+  width: 130px;
+  height: 130px;
   background-color: #2b2f36;
   color: rgb(244, 240, 233);
   display: inline-block;
-  margin: 5px 5px;
+  margin: 10px 15px;
+  border-radius: 50%;
 }
 
 .par-dentro-caselle {
   font-size: 1.3em;
-  padding: 40px;
+  padding-top: 55px;
 }
 
 #acquista-tabelle {
@@ -84,20 +85,27 @@ main > button {
 }
 
 .casella-giocatore {
-  width: 9%;
-  height: 100px;
+  width: 130px;
+  height: 130px;
   background-color: #2b2f36;
   color: rgb(244, 240, 233);
   display: inline-block;
-  margin: 5px 5px;
+  margin: 10px 70px;
+  border-radius: 50%;
 }
 
 #tabella-giocatore {
-  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .tabella-giocatore-singola {
-  margin-top: 100px;
+  width: 80%;
+  margin-bottom: 100px;
+  background-color: #a5a6a9;
+  padding: 20px 0;
+  border-radius: 2em;
 }
 
 .estratto {
@@ -107,5 +115,5 @@ main > button {
 }
 
 #par-acquistate {
-  margin-top: 50px;
+  margin: 100px 0 50px;
 }

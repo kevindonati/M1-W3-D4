@@ -25,7 +25,7 @@ const creaTabellaGiocatore = function () {
     numeri.push(i)
   }
   const numeriEstratti = []
-  for (let i = 0; i < 27; i++) {
+  for (let i = 0; i < 15; i++) {
     const random = Math.floor(Math.random() * numeri.length)
     const numero = numeri.splice(random, 1)[0]
     numeriEstratti.push(numero)
