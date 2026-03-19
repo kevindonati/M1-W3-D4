@@ -1,0 +1,111 @@
+body {
+  font-family: "Fredoka", sans-serif;
+  background-color: #2b2f36;
+}
+
+main {
+  text-align: center;
+}
+
+#container {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #f2f3f5;
+}
+
+h1 {
+  font-size: 4em;
+  text-align: center;
+  color: #2b2f36;
+}
+
+h3 {
+  font-size: 1.5em;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+main > button {
+  width: 20%;
+  padding: 14px;
+  margin-top: 1em;
+  border-radius: 14px;
+  border: none;
+  background: #2b2f36;
+  color: #f2f3f5;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.p-numero-estratto {
+  margin-top: 30px;
+  font-size: 1.5em;
+}
+
+#tabella-celle {
+  margin-top: 50px;
+}
+
+.casella {
+  width: 9%;
+  height: 100px;
+  background-color: #2b2f36;
+  color: rgb(244, 240, 233);
+  display: inline-block;
+  margin: 5px 5px;
+}
+
+.par-dentro-caselle {
+  font-size: 1.3em;
+  padding: 40px;
+}
+
+#acquista-tabelle {
+  margin-top: 50px;
+  padding: 10px;
+}
+
+#seleziona-numero-caselle {
+  width: 50px;
+}
+
+#bottone-acquisto {
+  width: 150px;
+  padding: 14px;
+  margin-left: 1em;
+  border-radius: 14px;
+  border: none;
+  background: #2b2f36;
+  color: #f2f3f5;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.casella-giocatore {
+  width: 9%;
+  height: 100px;
+  background-color: #2b2f36;
+  color: rgb(244, 240, 233);
+  display: inline-block;
+  margin: 5px 5px;
+}
+
+#tabella-giocatore {
+  margin-top: 100px;
+}
+
+.tabella-giocatore-singola {
+  margin-top: 100px;
+}
+
+.estratto {
+  background-color: rgb(195, 236, 243);
+  color: #2b2f36;
+  font-weight: 500;
+}
+
+#par-acquistate {
+  margin-top: 50px;
+}

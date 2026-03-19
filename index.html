@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tombola</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/reset-style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h1>Tombola</h1>
+      </header>
+      <main>
+        <section id="numero-estratto"></section>
+        <button>Estrai</button>
+        <form id="acquista-tabelle">
+          <h3>Acquista tabelle</h3>
+          <label for="seleziona-numero-caselle">
+            <input
+              id="seleziona-numero-caselle"
+              max="6"
+              min="1"
+              type="number"
+            />
+          </label>
+          <button id="bottone-acquisto">Acquista</button>
+        </form>
+        <section id="tabella-celle"></section>
+        <h3 id="par-acquistate">Tabelle Acquistate</h3>
+        <section id="tabella-giocatore"></section>
+      </main>
+      <script src="./assets/script/script.js"></script>
+    </div>
+  </body>
+</html>
